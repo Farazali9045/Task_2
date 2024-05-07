@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Store</title>
+    <!--Fontawesome cdn start here-->
+    <link rel="stylesheet" 
+    data-purpose="Layout StyleSheet" 
+    title="Web Awesome" href="/css/app-wa-a60ddbceb7292f11c9e430d067b1eb9f.css?vsn=d"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-thin.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-solid.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-regular.css"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-light.css"
+    >
+    <!--Fontawesome cdn end here-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="shortcut icon" href="./assets/grocery.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navbar start here-->
+    <nav id="navbar">
+        <div class="upper-nav">
+            <div class="upper-nav-start">
+                <a href="#"><i class="fa-sharp fa-light fa-cart-shopping"><span class="notification">5</span></i></a>
+                <a href="#"><i class="fa-sharp fa-light fa-magnifying-glass"></i></a>
+            </div>
+            <div class="upper-nav-end">
+                <a href="#"><i class="fa-sharp fa-light fa-location-dot"></i></a>
+                <span>Town, Street number, rest of location</span>
+            </div>
+        </div>
+        <div class="lower-nav">
+            <a href="#"><img src="./assets/logo.png" alt="logo"></a>
+            <ul>
+                <a href="#home" style="background-color: #00A353;"><span style="color: #fff; font-weight: 600;">Home</span><i class="fa-sharp  fa-house" style="color:#fff;"></i></a>
+                <a href="#product" class="hover-effect"><span>Products</span><i class="fa-sharp  fa-shapes"></i></a>
+                <a href="#category" class="hover-effect"><span>Categories</span><i class="fa-sharp  fa-layer-group"></i></a>
+                <a href="#whyus" class="hover-effect"><span>Why us</span><i class="fa-solid  fa-message"></i></a>
+                <a href="#review" class="hover-effect"><span>Reviews</span><i class=" fa-solid fa-quote-left"></i></a>
+                <a href="#contact" class="hover-effect"><span>Contact</span><i class="fa-solid  fa-phone-volume"></i></a>
+                
+            </ul>
+                <i class="fa-regular fa-bars"></i> 
+                <div class="menu-box">
+                  <a href="#home" class="menu-links" style="background-color: #00A353;"><i class="fa-sharp  fa-house" style="color:#fff;"></i><span style="color: #fff; font-weight: 600;">Home</span></a>
+                  <a href="#product" class="hover-effect menu-links"><i class="fa-sharp  fa-shapes"></i><span>Products</span></a>
+                <a href="#category" class="hover-effect menu-links"><i class="fa-sharp  fa-layer-group"></i><span>Categories</span></a>
+                <a href="#whyus" class="hover-effect menu-links"><i class="fa-solid  fa-message"></i><span>Why us</span></a>
+                <a href="#review" class="hover-effect menu-links"><i class=" fa-solid fa-quote-left"></i><span>Reviews</span></a>
+                <a href="#contact" class="hover-effect menu-links"><i class="fa-solid  fa-phone-volume"></i><span>Contact</span></a>
+                </div>
+        </div>
+    </nav>
+    <!--Navbar end here-->
+    <!--Hero section start here-->
+    <section class="hero-section" id="home">
+      <div class="home-content">
+        <h1>WE HAVE FRESH ORGANIC FOOD & VEGITABLES</h1>
+        <p>Discover farm-fresh goodness at our online grocery store. From organic produce to pantry staples, we bring quality and convenience to your doorstep. Shop now!</p>
+        <button class="btn1">Order Now</button>
+      </div>
+      <div class="home-swiper">
+        <div class="slider-container">
+          <div class="slide"><img src="./assets/slide-img/home-slide-1.png" alt="Slide 1"></div>
+          <div class="slide"><img src="./assets/slide-img/home-slide-2.png" alt="Slide 2"></div>
+          <div class="slide"><img src="./assets/slide-img/home-slide-3.png" alt="Slide 3"></div>
+        </div>
+      </div>
+    </section>
+    <!--Hero section end here-->
+    <!--Feature section start here-->
+    <section class="features">
+      <div class="feature-grid">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <h3>FREE SHIPPING</h3>
+        <p>Enjoy free shipping on all orders—bringing the convenience of grocery shopping right to your doorstep!</p>
+      </div>
+      <div class="feature-grid">
+        <i class="fa-solid fa-award"></i>
+        <h3>100% GUARANTEE</h3>
+        <p>Assured satisfaction, no doubts—our guarantee stands firm, ensuring your complete peace of mind always.</p>
+      </div>
+      <div class="feature-grid">
+        <i class="fa-regular fa-money-check"></i>
+        <h3>SECURE PAYMENT</h3>
+        <p>
+          Our secure payment system ensures your transactions are safe, protecting your financial information with state-of-the-art encryption.</p>
+      </div>
+    </section>
+    <!--Feature section end here-->
+    <!--Product section start here-->
+    <section class="products" id="product">
+      <div class="container-title">
+        <div class="container-icon">
+          <i class="fa-sharp  fa-shapes"></i>
+        </div>
+        <h1 style="text-align: center;">Latest Products</h1>
+      </div>
+      <div class="product-grid">
+       
+        <div class="product-card">
+          <img src="./assets/products-img/product-1.jpg" alt="product-1">
+          <div class="price-tag">$21</div>
+          <div class="product-detail">
+            <h3>Mixed Vegitable</h3>
+            <p>Colorful, nutritious medley of mixed vegetables, bursting with flavor and goodness.</p>
+            <div class="rating-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <button class="btn1">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="./assets/products-img/product-2.jpg" alt="product-1">
+          <div class="price-tag">$21</div>
+          <div class="product-detail">
+            <h3>Capsicum</h3>
+            <p>Capsicum, commonly known as bell pepper, is a versatile and vibrant vegetable used in various cuisines worldwide.</p>
+            <div class="rating-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <button class="btn1">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="./assets/products-img/product-3.jpg" alt="product-1">
+          <div class="price-tag">$21</div>
+          <div class="product-detail">
+            <h3>Avocado</h3>
+            <p>
+              Creamy, nutrient-rich avocado—a versatile fruit adored for its smooth texture and healthy fats.</p>
+            <div class="rating-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <button class="btn1">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="./assets/products-img/product-4.jpg" alt="product-1">
+          <div class="price-tag">$21</div>
+          <div class="product-detail">
+            <h3>Lemons</h3>
+            <p>Lemons, zesty and refreshing citrus fruits, add tangy flavor to dishes and drinks, packed with vitamin C.</p>
+            <div class="rating-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <button class="btn1">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="./assets/products-img/product-5.jpg" alt="product-1">
+          <div class="price-tag">$21</div>
+          <div class="product-detail">
+            <h3>Orange</h3>
+            <p>Vibrant, citrusy, round, juicy, refreshing, vitamin-rich, sunset hue, tropical, tangy, zestful.</p>
+            <div class="rating-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <button class="btn1">Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="./assets/products-img/product-6.jpg" alt="product-1">
+          <div class="price-tag">$21</div>
+          <div class="product-detail">
+            <h3>Carrot</h3>
+            <p>
+              Crunchy, orange, nutritious, root vegetable, beta-carotene, farm-fresh, versatile, sweet, healthy, salad.</p>
+            <div class="rating-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <button class="btn1">Add To Cart</button>
+          </div>
+        </div>
+          </div>
+    </section>
+    <!--Product section end here-->
+    <!--Categories section start here-->
+    <section class="categories" id="category">
+      <div class="container-title">
+        <div class="container-icon">
+          <i class="fa-sharp  fa-shapes"></i>
+        </div>
+        <h1 style="text-align: center;">Our Categories</h1>
+      </div>
+      <div class="categories-grid">
+          <div class="category-card">
+            <button>Fruits</button>
+            <img src="./assets/category-img/fruits.png" alt="fruits">
+          </div>
+          <div class="category-card">
+            <button>Bakery</button>
+            <img src="./assets/category-img/Bakery.png" alt="Bakery">
+          </div>
+          <div class="category-card">
+            <button>Beverages</button>
+            <img src="./assets/category-img/Beverages.png" alt="Beverages">
+          </div>
+          <div class="category-card">
+            <button>Dairy</button>
+            <img src="./assets/category-img/Dairy.png" alt="Dairy">
+          </div>
+          <div class="category-card">
+            <button>Meat</button>
+            <img src="./assets/category-img/Meat.png" alt="Meat">
+          </div>
+          <div class="category-card">
+            <button>Snacks</button>
+            <img src="./assets/category-img/Snacks.png" alt="Snacks">
+          </div>
+          <div class="category-card">
+            <button>Staples</button>
+            <img src="./assets/category-img/Staples.png" alt="Staples">
+          </div>
+          <div class="category-card">
+            <button>Vegetables</button>
+            <img src="./assets/category-img/Vegetables.png" alt="Vegetables" style="height: 120px; top: 70px; left: 55px;">
+          </div>
+      </div>
+    </section>
+    <!--Categories section end here-->
+    <!--Offer section start here-->
+    <section class="offer">
+      <div class="offer-container">
+        <img src="./assets/offer-delivery.png" alt="offer">
+        <div class="offer-info">
+          <h1>We Offer Free Shipping For All Products</h1>
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+          <button class="btn1 orgbtn">Order Now</button>
+        </div>
+      </div>
+    </section>
+    <!--Offer section end here-->
+    <!--Why-us section start here-->
+    <section class="why-us" id="whyus">
+      <div class="container-title">
+        <div class="container-icon">
+          <i class="fa-sharp  fa-message"></i>
+        </div>
+        <h1>WHY US</h1>
+      </div>
+      <div class="tabs">
+        <div class="tabs-head">
+          <div class="tab-item" style="background-color: #00A353; color: #fff;">
+            <i class="fa-solid fa-hand-holding"></i>
+            <p>Harvest Every Day</p>
+          </div>
+          <div class="tab-item">
+            <i class="fa-solid fa-leaf"></i>
+            <p>Organic</p>
+          </div>
+          <div class="tab-item">
+            <i class="fa-solid fa-people-group"></i>
+            <p>Family And Healthy</p>
+          </div>
+          <div class="tab-item">
+            <i class="fa-brands fa-pagelines"></i>
+            <p>Always Fresh</p>
+          </div>
+        </div>
+        <div class="tabs-body">
+          <img src="./assets/harvest-image.png" alt="harvest-image">
+          <h2>Harvest Every Day</h2>
+          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum</p>
+        </div>
+      </div>
+    </section>
+    <!--Why-us section end here-->
+    <!--Review section start here-->
+    <section class="review" id="review">
+      <div class="container-title">
+          <div class="container-icon">
+              <i class="fas fa-quote-left"></i>
+          </div>
+          <h1 style="text-align: center;">OUR CUSTOMERS REVIEWS</h1>
+      </div>
+  
+      <div class="review-box">
+          <div class="small-box"></div>
+          <div class="medium-box"></div>
+          <div class="large-box">
+           
+           <div class="swiper-slide-innner">
+               <i class="fa-solid fa-quote-left"></i>
+               <p>
+               
+Your website is visually appealing and easy to navigate, making it a pleasure to explore. The content is informative and engaging, providing valuable insights and resources. I appreciate the user-friendly design and seamless functionality across different devices. Overall, a fantastic online experience!The website's fast loading speed and responsive design further contribute to a seamless and enjoyable browsing experience for visitors.
+The interactive features, such as live chat support and interactive tools, enhance user engagement and satisfaction.
+            </p>
+               <h2>John Doe</h2>
+               <h4>Devops engineer</h4>
+           </div>
+           <div class="swiper-slide-button">
+            <i class="fa-solid fa-backward"></i><i class="fa-solid fa-forward"></i>
+           </div>
+      </div>
+  </section>
+    <!--Review section end here-->
+     <!--Featured section start here-->
+    <section class="featured">
+      <div class="container-title">
+        <div class="container-icon">
+            <i class="fas fa-star"></i>
+        </div>
+        <h1 style="text-align: center;">FEATURED PRODUCTS</h1>
+    </div>
+
+    <div class="featured-grid">
+      <div class="featured-card">
+        <img src="./assets/featured-img/featured-1.jpg" alt="featured-1">
+        <div class="featured-item-body">
+          <h3>Mango</h3>
+        <p>Tropical, juicy, succulent, sweet, yellow-orange, aromatic, luscious, refreshing.</p>
+        </div>
+      </div>
+      <div class="featured-card">
+        <img src="./assets/featured-img/featured-2.jpg" alt="featured-2">
+        <div class="featured-item-body">
+          <h3>Strawberry</h3>
+        <p>Sweet, red, juicy, succulent, aromatic, berry, summery, delectable.</p>
+        </div>
+      </div>
+      <div class="featured-card">
+        <img src="./assets/featured-img/featured-3.jpg" alt="featured-3">
+        <div class="featured-item-body">
+          <h3>Tomato</h3>
+        <p>
+          Red, juicy, versatile, savory, nutritious, garden-fresh, vibrant, essential.</p>
+        </div>
+      </div>
+      <div class="featured-card">
+        <img src="./assets/featured-img/featured-4.jpg" alt="featured-4">
+        <div class="featured-item-body">
+          <h3>Watermelon</h3>
+        <p>
+          Refreshing, juicy, sweet, hydrating, summery, vibrant, seed-spitting, picnic favorite.</p>
+        </div>
+      </div>
+    </div>
+    </section>
+
+<!--Featured section end here-->
+
+<!--Contact section start here-->
+<section class="contact" id="contact">
+  <div class="container-title">
+    <div class="container-icon">
+        <i class="fas fa-phone-volume"></i>
+    </div>
+    <h1>GET IN TOUCH</h1>
+</div>
+
+<div class="contact-holder">
+  <div class="contact-holder-row">
+    <div class="iCircle"><i class="fa-solid fa-phone"></i></div>
+    <div class="contact-row-content">
+      <h2>Call Us</h2>
+      <p>000-0000-00</p>
+    </div>
+  </div>
+    <div class="contact-holder-row">
+      <div class="iCircle"><i class="fa-solid fa-location-dot"></i></div>
+      <div class="contact-row-content">
+        <h2>Visit Us</h2>
+        <p>11/109, Super Colony - Aligarh</p>
+      </div>
+  </div>
+
+  <form>
+    <h2>Fill The Form</h2>
+    <div class="input-box">
+    <i class="fa-solid fa-pen"></i>
+    <input type="text" placeholder="Subject">
+  </div>
+  <div class="input-box">
+    <i class="fa-solid fa-envelope"></i>
+    <input type="email" placeholder="Email" required>
+
+  </div>
+  <div class="input-box">
+    <i class="fa-solid fa-phone-flip"></i>
+    <input type="number" placeholder="Phone Number">
+
+  </div>
+  <div class="input-box">
+    <i class="fa-solid fa-message"></i>
+    <textarea placeholder="Your Message"></textarea>
+
+  </div>
+    <button class="btn1">Send</button>
+  </form>
+</div>
+</section>
+<!--Contact section end here-->
+
+<footer>
+  <div class="upper-footer">
+    <img src="./assets/white-logo.png" alt="footer-img" class="footer-img">
+    <div class="brands-box">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+    </div>
+  </div>
+  <div class="middle-footer">
+    <div class="footer-middle-first">
+      <h2>About Us</h2>
+      <p style="font-size: 16px; font-weight: 400;">we're passionate about providing fresh, quality produce at your fingertips. Our mission is to make grocery shopping convenient, reliable, and enjoyable for every customer. Join us in embracing a healthier, hassle-free way to shop for your essentials.,</p>
+    </div>
+    <div class="footer-middle-second">
+      <h2>Pages</h2>
+      <ul>
+        <span><i class="fa-solid fa-caret-right"></i>Privacy Policy</span>
+        <span><i class="fa-solid fa-caret-right"></i>Terms & Conditions</span>
+        <span><i class="fa-solid fa-caret-right"></i>Product</span>
+        <span><i class="fa-solid fa-caret-right"></i>Products</span>
+      </ul>
+    </div>
+    <div class="footer-middle-last">
+      <h2>Links</h2>
+      <ul>
+        <span><i class="fa-solid fa-caret-right"></i>Contact</span>
+        <span><i class="fa-solid fa-caret-right"></i>Help</span>
+        <span><i class="fa-solid fa-caret-right"></i>Frequently Ask Questions</span>
+        <span><i class="fa-solid fa-caret-right"></i>Blog</span>
+      </ul>
+    </div>
+  </div>
+  <div class="lower-footer">
+    <span>All Rights Reserved © 2024</span>
+    <p>Designed By <span style="color: #00A353;">Faraz Ali</span></p>
+  </div>
+</footer>
+<button class="btn1"id="scrollTopButton" style="color: #fff; font-size: 16px; position: fixed;
+right: 25px; bottom: 25px;"><i class="fa-solid fa-caret-up"></i></button>
+<script src="script.js"></script>
+</body>
+</html>
